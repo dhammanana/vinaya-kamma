@@ -1,4 +1,5 @@
 # Monastic Procedures — Book Reader
+[DEMO](https://kamma.iit.qzz.io/)
 
 Static book reader built with Vite. Reads the source HTML chapter files once at
 build time and produces a self-contained `dist/` folder ready for GitHub Pages.
