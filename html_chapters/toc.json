@@ -1,0 +1,855 @@
+[
+  {
+    "id": "1",
+    "label": "Preface",
+    "file": "1.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "2",
+    "label": "Going Forth",
+    "file": "2.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "2-1",
+        "label": "Shaving (Bhandukamma)",
+        "file": "2-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "2-2",
+        "label": "The Meditation on the Fivefold Skin-Constituents",
+        "file": "2-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "2-3",
+        "label": "Taking a Preceptor",
+        "file": "2-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "2-4",
+        "label": "Those Unfit for Going-forth",
+        "file": "2-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "2-5",
+        "label": "Persons who should not be ordained, but whose ordination is valid if performed.",
+        "file": "2-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "2-6",
+        "label": "The Age for Ordination",
+        "file": "2-6.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "label": "The Procedure for Higher Ordination.",
+    "file": "3.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "3-1",
+        "label": "The Formal Act for Higher Ordination",
+        "file": "3-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-2",
+        "label": "Instruction given at the conclusion of the Higher Ordination",
+        "file": "3-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-3",
+        "label": "The Four Resources",
+        "file": "3-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-4",
+        "label": "The Four Unperformables",
+        "file": "3-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-5",
+        "label": "Higher Ordination of Two or Three Persons at Once",
+        "file": "3-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-6",
+        "label": "Persons Ineligible for Higher Ordination",
+        "file": "3-6.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-7",
+        "label": "The Age of the Candidate for Higher Ordination",
+        "file": "3-7.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-8",
+        "label": "Monks Suitable to Be an Upajjhāya",
+        "file": "3-8.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "3-9",
+        "label": "Taking Dependence",
+        "file": "3-9.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "label": "Adhiṭṭhāna and Vikappana Procedures",
+    "file": "4.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "4-1",
+        "label": "Formal Resolve of the Bowl",
+        "file": "4-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "4-2",
+        "label": "Adhiṭṭhāna of Robes",
+        "file": "4-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "4-3",
+        "label": "Adhiṭṭhāna of Supplementary Robes",
+        "file": "4-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "4-4",
+        "label": "Robe Designation by Proxy",
+        "file": "4-4.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "label": "Confession of Offences",
+    "file": "5.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "5-1",
+        "label": "Confession of Common Offences",
+        "file": "5-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "5-2",
+        "label": "Formulations Used for Confessing Offenses",
+        "file": "5-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "5-3",
+        "label": "Relinquishing Nissaggiya.",
+        "file": "5-3.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "label": "Observing Uposatha",
+    "file": "6.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "6-1",
+        "label": "The Nine Uposathas.",
+        "file": "6-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "6-2",
+        "label": "Matters to be known concerning the Community's Uposatha",
+        "file": "6-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "6-3",
+        "label": "Method for Performing the Sangha Uposatha",
+        "file": "6-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "6-4",
+        "label": "Pārisuddhi Uposatha.",
+        "file": "6-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "6-5",
+        "label": "The Adhitthāna Uposatha.",
+        "file": "6-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "6-6",
+        "label": "Persons to be Excluded.",
+        "file": "6-6.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "label": "Entering the Vassa",
+    "file": "7.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "7-1",
+        "label": "Going with a Sattāhakaraniya.",
+        "file": "7-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "7-2",
+        "label": "Matters for which one may go with a seven-day allowance.",
+        "file": "7-2.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "label": "Pavāraṇā",
+    "file": "8.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "8-1",
+        "label": "Three-Time Sangha Pavāraṇā",
+        "file": "8-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "8-2",
+        "label": "The Motion for Pavāraṇā",
+        "file": "8-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "8-3",
+        "label": "Pavāraṇā of a Group of Four",
+        "file": "8-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "8-4",
+        "label": "Individual Pavāraṇā for a Small Group",
+        "file": "8-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "8-5",
+        "label": "Adhiṭṭhāna Pavāraṇā",
+        "file": "8-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "8-6",
+        "label": "Dvievācika-ādi Pavāraṇā",
+        "file": "8-6.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "label": "The Monastic Procedure for Spreading the Kathina",
+    "file": "9.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "9-1",
+        "label": "Formal Act Statement",
+        "file": "9-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-2",
+        "label": "Accessories Offered with the Kathina Robe",
+        "file": "9-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-3",
+        "label": "Failures of the Kathina",
+        "file": "9-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-4",
+        "label": "Spreading the Kathina with a Pre-made Robe",
+        "file": "9-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-5",
+        "label": "Views from a Modern Book",
+        "file": "9-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-6",
+        "label": "Inquiry into the Kathina",
+        "file": "9-6.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-7",
+        "label": "The Person Suitable for Bestowing the Kathina Cloth",
+        "file": "9-7.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-8",
+        "label": "Preliminary Action",
+        "file": "9-8.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-9",
+        "label": "Revocation and Determination",
+        "file": "9-9.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-10",
+        "label": "The Eight Topics",
+        "file": "9-10.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-11",
+        "label": "Two Obstacles",
+        "file": "9-11.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-12",
+        "label": "Monastic Procedure for Removing the Kathina",
+        "file": "9-12.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-13",
+        "label": "The Formal Announcement for the Revocation of the Kathina",
+        "file": "9-13.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-14",
+        "label": "The Benefits of Kathina",
+        "file": "9-14.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-15",
+        "label": "The Period of Kathina Spreading and the Period of Benefits",
+        "file": "9-15.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "9-16",
+        "label": "Monks who Receive and Do Not Receive the Kathina Spreading",
+        "file": "9-16.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "label": "Unconcealed Mānatta",
+    "file": "10.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "11",
+    "label": "Combined Probation (Agghasamodhāna parivāsa).",
+    "file": "11.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "12",
+    "label": "Absolute Probation (suddhantaparivāsaya)",
+    "file": "12.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "12-1",
+        "label": "Matters to be Known Regarding the Fulfillment of Vatta and Mānatta.",
+        "file": "12-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "12-2",
+        "label": "The Method of Conduct for Bhikkhus Fulfilling Penance.",
+        "file": "12-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "12-3",
+        "label": "A Matter to be Observed when Granting Probation and Penance.",
+        "file": "12-3.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "label": "Probation for Sectarians",
+    "file": "13.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "14",
+    "label": "The Act of Assigning a Site for a Hut",
+    "file": "14.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "15",
+    "label": "The Formal Act of Admonition",
+    "file": "15.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "16",
+    "label": "The Act of Banishment",
+    "file": "16.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "17",
+    "label": "The Formal Act of Charging with Evasive Speech",
+    "file": "17.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "18",
+    "label": "The Act of Charging with Vexation",
+    "file": "18.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "19",
+    "label": "Rehabilitation (Osāraṇa)",
+    "file": "19.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "20",
+    "label": "The Higher Penalty (Brahmadaṇḍa)",
+    "file": "20.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "21",
+    "label": "The Act of Charging with Delusion",
+    "file": "21.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "22",
+    "label": "The Act of Censure (Tajjanīya Kamma)",
+    "file": "22.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "23",
+    "label": "The Act of Guidance",
+    "file": "23.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "24",
+    "label": "Act of Reconciliation (Patisāraṇīya Kamma)",
+    "file": "24.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "25",
+    "label": "The Act of Turning Over the Alms-bowl (Pattanikkujjana Kamma)",
+    "file": "25.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "26",
+    "label": "Acts of Suspension",
+    "file": "26.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "26-1",
+        "label": "The Act of Suspension for Not Acknowledging an Offense.",
+        "file": "26-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "26-2",
+        "label": "The Act of Suspension for a Bhikkhu who does not wish to make amends for an offense.",
+        "file": "26-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "26-3",
+        "label": "The Act of Suspension for Not Relinquishing an Evil View",
+        "file": "26-3.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "label": "Authorizations",
+    "file": "27.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "27-1",
+        "label": "Authorization of an Allowable Ground",
+        "file": "27-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-2",
+        "label": "Authorization of a Learner (Sekha).",
+        "file": "27-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-3",
+        "label": "Authorization for a Robe-Receiver.",
+        "file": "27-3.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-4",
+        "label": "Authorization of a Robe-Depositor.",
+        "file": "27-4.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-5",
+        "label": "Authorization of a Storehouse.",
+        "file": "27-5.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-6",
+        "label": "Authorization of a Storekeeper.",
+        "file": "27-6.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-7",
+        "label": "Authorization of a Robe-Distributor.",
+        "file": "27-7.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-8",
+        "label": "The Monastic Procedure for Bestowing Robes to the Deceased.",
+        "file": "27-8.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-9",
+        "label": "Monastic Procedure for Giving Robes to a Deceased Novice",
+        "file": "27-9.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-10",
+        "label": "Authorization to be Separate from the Triple Robe",
+        "file": "27-10.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-11",
+        "label": "Authorization for New Construction.",
+        "file": "27-11.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-12",
+        "label": "Authorization of an Assigner of Lodgings.",
+        "file": "27-12.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-13",
+        "label": "Authorization of an Assigner of Lodgings.",
+        "file": "27-13.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-14",
+        "label": "Authorization of a Meal-Assigner.",
+        "file": "27-14.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-15",
+        "label": "Formal Act for the Authorization of a Distributor of Rice-gruel.",
+        "file": "27-15.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-16",
+        "label": "Formal Act for the Authorization of a Fruit-Distributor",
+        "file": "27-16.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-17",
+        "label": "Formal Act for the Appointment of a Distributor of Confectionery",
+        "file": "27-17.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-18",
+        "label": "Authorization of a Distributor of Trifles.",
+        "file": "27-18.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-19",
+        "label": "Authorization of an Alms-bowl Distributor.",
+        "file": "27-19.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-20",
+        "label": "Authorization of a Disposer of Money",
+        "file": "27-20.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-21",
+        "label": "Authorization of a Receiver of Bathing Cloths",
+        "file": "27-21.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-22",
+        "label": "Authorization of an Overseer of Monastery Attendants.",
+        "file": "27-22.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-23",
+        "label": "Authorization of a Novice-Assigner",
+        "file": "27-23.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-24",
+        "label": "Authorization for a Staff",
+        "file": "27-24.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-25",
+        "label": "Authorization for a Sling.",
+        "file": "27-25.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-26",
+        "label": "Authorization for a Staff and String",
+        "file": "27-26.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "27-27",
+        "label": "Authorization for the Insane.",
+        "file": "27-27.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "label": "The Monastic Procedure for the Binding of a Boundary",
+    "file": "28.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "28-1",
+        "label": "Establishing a New Boundary",
+        "file": "28-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "28-2",
+        "label": "Purification of the Boundary Area.",
+        "file": "28-2.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "label": "Formal Declaration concerning the Annulment of Boundaries and the Authorization of Boundaries.",
+    "file": "29.html",
+    "level": 1,
+    "children": []
+  },
+  {
+    "id": "30",
+    "label": "The Community Performing Monastic Procedures",
+    "file": "30.html",
+    "level": 1,
+    "children": [
+      {
+        "id": "30-1",
+        "label": "The Four Monastic Procedures.",
+        "file": "30-1.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "30-2",
+        "label": "Failures of Monastic Procedures.",
+        "file": "30-2.html",
+        "level": 2,
+        "children": []
+      },
+      {
+        "id": "30-3",
+        "label": "How to Proceed Regarding Unlawful Procedures",
+        "file": "30-3.html",
+        "level": 2,
+        "children": []
+      }
+    ]
+  }
+]

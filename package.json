@@ -1,0 +1,17 @@
+{
+  "name": "book-reader",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:content": "node scripts/build-content.js",
+    "dev":           "npm run build:content && vite",
+    "build":         "npm run build:content && vite build",
+    "preview":       "vite preview"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

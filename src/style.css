@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/* ── Local fonts (same paths as original project's dist/fonts/) ── */
+@font-face { font-family: 'sinhala';    font-weight: normal; src: url('/fonts/NotoSerifSinhala-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'sinhala';    font-weight: bold;   src: url('/fonts/NotoSerifSinhala-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'devanagari'; font-weight: normal; src: url('/fonts/NotoSerifDevanagari-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'devanagari'; font-weight: bold;   src: url('/fonts/NotoSerifDevanagari-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'roman';      font-weight: normal; src: url('/fonts/NotoSerif-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'roman';      font-weight: bold;   src: url('/fonts/NotoSerif-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'thai';       font-weight: normal; src: url('/fonts/thai/THSarabunNew.ttf') format('truetype'); }
+@font-face { font-family: 'thai';       font-weight: bold;   src: url('/fonts/thai/THSarabunNew-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'lao';        font-weight: normal; src: url('/fonts/lao/LaoPaliAlpha-Light.woff') format('woff'); }
+@font-face { font-family: 'lao';        font-weight: bold;   src: url('/fonts/lao/LaoPaliAlpha-Regular.woff') format('woff'); }
+@font-face { font-family: 'myanmar';    font-weight: normal; src: url('/fonts/myanmar/mm3-multi-os(16-08-2011).ttf') format('truetype'); }
+@font-face { font-family: 'myanmar';    font-weight: bold;   src: url('/fonts/myanmar/mm3-multi-os(16-08-2011).ttf') format('truetype'); }
+@font-face { font-family: 'khmer';      font-weight: normal; src: url('/fonts/NotoSerifKhmer-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'khmer';      font-weight: bold;   src: url('/fonts/NotoSerifKhmer-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'bengali';    font-weight: normal; src: url('/fonts/NotoSerifBengali-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'bengali';    font-weight: bold;   src: url('/fonts/NotoSerifBengali-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'gurmukhi';   font-weight: normal; src: url('/fonts/NotoSansGurmukhi-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'gurmukhi';   font-weight: bold;   src: url('/fonts/NotoSansGurmukhi-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'gujarati';   font-weight: normal; src: url('/fonts/NotoSerifGujarati-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'gujarati';   font-weight: bold;   src: url('/fonts/NotoSerifGujarati-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'telugu';     font-weight: normal; src: url('/fonts/NotoSerifTelugu-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'telugu';     font-weight: bold;   src: url('/fonts/NotoSerifTelugu-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'kannada';    font-weight: normal; src: url('/fonts/NotoSerifKannada-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'kannada';    font-weight: bold;   src: url('/fonts/NotoSerifKannada-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'malayalam';  font-weight: normal; src: url('/fonts/NotoSerifMalayalam-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'malayalam';  font-weight: bold;   src: url('/fonts/NotoSerifMalayalam-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'brahmi';     font-weight: normal; src: url('/fonts/NotoSansBrahmi-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'tibetan';    font-weight: normal; src: url('/fonts/tibetian/NotoSansTibetan-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'tibetan';    font-weight: bold;   src: url('/fonts/tibetian/NotoSansTibetan-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'cyrillic';   font-weight: normal; src: url('/fonts/NotoSerif-Regular.ttf') format('truetype'); }
+@font-face { font-family: 'cyrillic';   font-weight: bold;   src: url('/fonts/NotoSerif-Bold.ttf') format('truetype'); }
+@font-face { font-family: 'tai tham';   font-weight: normal; src: url('/fonts/lanna/Hariphunchai.otf') format('opentype'); }
+@font-face { font-family: 'tai tham';   font-weight: bold;   src: url('/fonts/lanna/Hariphunchai.otf') format('opentype'); }
+
+/* ── Design tokens ── */
+:root {
+  --bg:        #F5F0E8;
+  --bg2:       #EDE7D9;
+  --bg3:       #E2DBD0;
+  --ink:       #2C2416;
+  --ink2:      #5C4E3A;
+  --ink3:      #8B7A62;
+  --gold:      #9A6F34;
+  --gold2:     #C49A50;
+  --gold-pale: #F0E4CC;
+  --recite-bg: #FFFBF2;
+  --recite-border: #C49A50;
+  --sidebar-w: 300px;
+  --topbar-h:  52px;
+  --radius:    4px;
+  --font-base: 16px;
+  --t: 0.2s ease;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'roman', 'Noto Serif', serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: var(--font-base);
+}
+
+/* ── Script-specific font for .pali-text (mirrors common.css) ── */
+.pali-text { font-family: 'roman', serif; }
+
+body[script="si"] .pali-text { font-family: 'sinhala'; line-height: 1.6; }
+body[script="ro"] .pali-text { font-family: 'roman', serif; }
+body[script="hi"] .pali-text { font-family: 'devanagari'; }
+body[script="th"] .pali-text { font-family: 'thai'; font-size: 1.2em; line-height: 1.7; }
+body[script="lo"] .pali-text { font-family: 'lao'; line-height: 1.7; }
+body[script="my"] .pali-text { font-family: 'myanmar'; }
+body[script="km"] .pali-text { font-family: 'khmer'; }
+body[script="be"] .pali-text { font-family: 'bengali'; }
+body[script="gm"] .pali-text { font-family: 'gurmukhi'; }
+body[script="tt"] .pali-text { font-family: 'tai tham'; font-size: 1.5em; }
+body[script="gj"] .pali-text { font-family: 'gujarati'; }
+body[script="te"] .pali-text { font-family: 'telugu'; }
+body[script="ka"] .pali-text { font-family: 'kannada'; }
+body[script="mm"] .pali-text { font-family: 'malayalam'; }
+body[script="br"] .pali-text { font-family: 'brahmi'; }
+body[script="tb"] .pali-text { font-family: 'tibetan'; }
+body[script="cy"] .pali-text { font-family: 'cyrillic'; }
+
+/* ── Top bar ── */
+#topbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: var(--topbar-h);
+  background: var(--ink);
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 12px;
+  box-shadow: 0 1px 0 rgba(154,111,52,.35);
+}
+#topbar .title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem; font-weight: 600; letter-spacing: .04em;
+  color: var(--gold2); flex: 1;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#menu-btn {
+  background: none; border: none; cursor: pointer;
+  color: var(--gold2); padding: 6px; border-radius: var(--radius);
+  display: flex; align-items: center;
+}
+#menu-btn:hover { background: rgba(255,255,255,.08); }
+#menu-btn svg { width: 20px; height: 20px; }
+.tb-sep { width: 1px; height: 22px; background: rgba(255,255,255,.12); margin: 0 2px; }
+.tb-label { font-size: .6rem; color: #8a7a62; letter-spacing: .08em; text-transform: uppercase; }
+.tb-btn {
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
+  color: #d9c9aa; cursor: pointer; padding: 3px 9px;
+  border-radius: var(--radius); font-size: .82rem; transition: all var(--t);
+}
+.tb-btn:hover { background: rgba(154,111,52,.3); color: var(--gold2); border-color: var(--gold); }
+select.tb-select {
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
+  color: #d9c9aa; padding: 3px 6px; border-radius: var(--radius);
+  font-size: .75rem; outline: none; max-width: 130px; cursor: pointer;
+}
+select.tb-select option { background: #2C2416; }
+
+/* ── Layout ── */
+#layout { display: flex; margin-top: var(--topbar-h); min-height: calc(100vh - var(--topbar-h)); }
+
+/* ── Sidebar ── */
+#sidebar {
+  width: var(--sidebar-w); flex-shrink: 0;
+  background: var(--bg2); border-right: 1px solid var(--bg3);
+  position: fixed; top: var(--topbar-h); bottom: 0; left: 0;
+  overflow-y: auto; overflow-x: hidden;
+  transition: transform var(--t); z-index: 50;
+}
+#sidebar.hidden { transform: translateX(calc(-1 * var(--sidebar-w))); }
+#sidebar-header {
+  padding: 16px 14px 10px; border-bottom: 1px solid var(--bg3);
+  position: sticky; top: 0; background: var(--bg2); z-index: 1;
+}
+#sidebar-header h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: .95rem; font-weight: 600; color: var(--gold); letter-spacing: .05em;
+}
+#sidebar-header p { font-size: .68rem; color: var(--ink3); margin-top: 2px; }
+
+.toc-toggle {
+  display: flex; align-items: center; gap: 6px;
+  padding: 8px 10px 8px 12px; cursor: pointer; width: 100%;
+  background: none; border: none; text-align: left;
+  color: var(--ink2); font-size: .8rem; font-family: 'roman', 'Noto Serif', serif;
+  transition: background var(--t);
+}
+.toc-toggle:hover { background: var(--bg3); }
+.toc-toggle.active { background: var(--gold-pale); color: var(--gold); border-left: 3px solid var(--gold); font-weight: 600; }
+.toc-toggle.open .arrow { transform: rotate(90deg); }
+.arrow { width: 14px; height: 14px; flex-shrink: 0; transition: transform var(--t); }
+.toc-num { font-size: .65rem; color: var(--ink3); flex-shrink: 0; width: 30px; font-variant-numeric: tabular-nums; }
+.toc-label { flex: 1; line-height: 1.3; }
+
+.toc-children { overflow: hidden; max-height: 0; transition: max-height .28s ease; background: rgba(0,0,0,.02); }
+.toc-children.open { max-height: 3000px; }
+
+.toc-child-item {
+  display: flex; align-items: flex-start; gap: 6px;
+  padding: 7px 10px 7px 30px; cursor: pointer; width: 100%;
+  background: none; border: none; text-align: left;
+  color: var(--ink3); font-size: .76rem; font-family: 'roman', 'Noto Serif', serif;
+  transition: background var(--t);
+}
+.toc-child-item:hover { background: var(--bg3); color: var(--ink2); }
+
+/* Search bar container */
+#search-container {
+  position: relative;
+  margin-left: 8px;
+}
+#search-input {
+  width: 180px;
+  padding: 4px 8px;
+  font-size: .85rem;
+  border: 1px solid var(--bg3);
+  border-radius: var(--radius);
+  background: var(--bg2);
+  color: var(--ink2);
+}
+#search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--bg2);
+  border: 1px solid var(--bg3);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  z-index: 10;
+}
+.suggestion-item {
+  padding: 6px 8px;
+  cursor: pointer;
+  font-size: .85rem;
+  color: var(--ink2);
+}
+.suggestion-item:hover {
+  background: var(--bg3);
+  color: var(--ink);
+}
+.hidden { display: none; }
+.toc-child-item.active { background: var(--gold-pale); color: var(--gold); border-left: 3px solid var(--gold); font-weight: 600; }
+
+/* ── Content area ── */
+#content-wrap { flex: 1; margin-left: var(--sidebar-w); transition: margin-left var(--t); }
+#content-wrap.sidebar-hidden { margin-left: 0; }
+#content-panel { max-width: 720px; margin: 0 auto; padding: 44px 28px 80px; }
+
+#welcome { text-align: center; padding: 80px 20px; }
+#welcome .ornament { font-size: 2.8rem; margin-bottom: 14px; opacity: .3; }
+#welcome h1 { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 600; color: var(--gold); margin-bottom: 8px; }
+#welcome p { color: var(--ink3); font-size: .88rem; }
+
+#chapter-content { animation: fadeIn .25s ease; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; } }
+
+#chapter-breadcrumb {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  font-size: .68rem; color: var(--ink3); margin-bottom: 20px;
+  padding-bottom: 12px; border-bottom: 1px solid var(--bg3);
+}
+#chapter-breadcrumb span { color: var(--ink2); }
+#chapter-breadcrumb .sep { opacity: .4; }
+
+#chapter-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.55rem; font-weight: 600; color: var(--ink);
+  line-height: 1.3; margin-bottom: 26px;
+}
+
+/* ── Chapter body ── */
+#chapter-body p { line-height: 1.85; margin-bottom: 1.1em; }
+
+.pali-text {
+  color: var(--gold);
+  overflow-wrap: break-word;
+}
+
+.subhead {
+  margin: 1.5em 0 .6em; padding: 8px 14px;
+  background: var(--gold-pale); border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.subhead p { font-family: 'Cormorant Garamond', serif; font-size: 1.08rem; font-weight: 600; color: var(--gold) !important; margin: 0 !important; }
+
+/* ── Recitation box (div.largefont) ── */
+.largefont {
+  position: relative;
+  background: var(--recite-bg);
+  border: 2px solid var(--recite-border);
+  border-radius: 6px;
+  padding: 24px 28px;
+  margin: 1.6em 0;
+  font-size: 1.12em;
+  line-height: 1.9;
+  box-shadow: 0 2px 12px rgba(154,111,52,.10), inset 0 1px 0 rgba(255,255,255,.6);
+}
+/* small "Recite" label top-right */
+.largefont::before {
+  content: '☸ recite';
+  position: absolute; top: -1px; right: 12px;
+  font-size: .6rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gold2);
+  background: var(--recite-border);
+  color: #fff;
+  padding: 1px 8px;
+  border-radius: 0 0 4px 4px;
+  font-family: 'roman', serif;
+}
+.largefont .pali-text {
+  font-size: 1.05em;
+  color: var(--ink);  /* in recitation context use full ink, not muted gold */
+}
+/* Paragraphs inside recitation box get a bit more breathing room */
+.largefont p { margin-bottom: .7em; }
+.largefont p:last-child { margin-bottom: 0; }
+
+/* ── Liturgical / instruction boxes ── */
+.liturgical-text {
+  background: var(--bg2); border: 1px solid var(--bg3);
+  border-radius: var(--radius); padding: 12px 16px; margin: 10px 0;
+}
+.liturgical-text p { margin-bottom: .45em; }
+.instruction { font-style: italic; color: var(--ink2) !important; }
+
+.heading-bar h2, .heading-bar h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem; font-weight: 600; color: var(--gold); margin-bottom: 16px;
+}
+.step { margin-bottom: 1.3em; }
+.step-title { font-size: .85rem; font-weight: 600; color: var(--gold); margin-bottom: .4em; text-transform: uppercase; letter-spacing: .05em; }
+.procedure-section { margin-bottom: 1.5em; }
+.section-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; color: var(--ink); margin: 1em 0 .5em; }
+
+/* ── Sub-topics list (from .TOC-container.subheadings) ── */
+.subtopics {
+  background: var(--bg2); border: 1px solid var(--bg3);
+  border-radius: var(--radius); padding: 16px 20px; margin: 1em 0 1.5em;
+}
+.subtopics h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: .8rem; font-weight: 600; color: var(--ink3);
+  letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px;
+}
+.subtopics ul { list-style: none; padding: 0; }
+.subtopics li { border-bottom: 1px solid var(--bg3); }
+.subtopics li:last-child { border-bottom: none; }
+.subtopics a {
+  display: block; padding: 7px 4px;
+  color: var(--ink2); text-decoration: none; font-size: .88rem;
+  transition: color var(--t);
+}
+.subtopics a:hover { color: var(--gold); }
+.subtopics a::before { content: '›  '; color: var(--gold2); }
+
+/* ── Prev/Next navigation ── */
+.chapter-nav {
+  display: flex; gap: 10px; justify-content: space-between;
+  margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--bg3);
+}
+.nav-btn {
+  padding: 9px 16px; border-radius: var(--radius);
+  font-family: 'roman', 'Noto Serif', serif; font-size: .8rem;
+  cursor: pointer; border: 1px solid var(--bg3);
+  background: var(--bg2); color: var(--ink2); transition: all var(--t);
+}
+.nav-btn:hover { background: var(--gold-pale); border-color: var(--gold2); color: var(--gold); }
+.nav-btn.prev::before { content: '← '; }
+.nav-btn.next::after  { content: ' →'; }
+
+/* ── Error box ── */
+#error-msg {
+  display: none; padding: 18px; background: #fff4f4;
+  border-left: 3px solid #c44; color: #833; border-radius: var(--radius);
+  margin: 20px 0; font-size: .83rem; white-space: pre-line;
+}
+#error-msg.active { display: block; }
+
+/* ── Mobile overlay ── */
+#overlay { display: none; position: fixed; inset: 0; z-index: 49; background: rgba(44,36,22,.4); }
+#overlay.active { display: block; }
+
+/* ── Responsive ── */
+@media (max-width: 680px) {
+  :root { --sidebar-w: 270px; }
+  #content-panel { padding: 24px 14px 60px; }
+  #sidebar { transform: translateX(calc(-1 * var(--sidebar-w))); box-shadow: 4px 0 16px rgba(0,0,0,.2); }
+  #sidebar.open { transform: translateX(0); }
+  #content-wrap { margin-left: 0 !important; }
+}
+
+#sidebar::-webkit-scrollbar { width: 3px; }
+#sidebar::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 2px; }
+

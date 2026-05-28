@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monastic Procedures</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+<div id="topbar">
+  <button id="menu-btn" title="Toggle sidebar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </svg>
+  </button>
+  <span class="title" id="topbar-title">Monastic Procedures</span>
+
+  <span class="tb-label">A</span>
+  <button class="tb-btn" id="font-sm">A−</button>
+  <button class="tb-btn" id="font-lg">A+</button>
+  <div class="tb-sep"></div>
+  <span class="tb-label">Pāli</span>
+  <select class="tb-select" id="script-select">
+    <option value="si">Sinhala</option>
+    <option value="ro">Roman</option>
+    <option value="hi">Devanagari</option>
+    <option value="th">Thai</option>
+    <option value="lo">Laos</option>
+    <option value="my">Myanmar</option>
+    <option value="km">Khmer</option>
+    <option value="be">Bengali</option>
+  </select>
+  <div id="search-container" style="margin-left:8px;">
+    <input type="text" id="search-input" placeholder="Search…" autocomplete="off" />
+    <div id="search-suggestions" class="hidden"></div>
+  </div>
+</div>
+
+<div id="overlay"></div>
+
+<div id="layout">
+  <div id="sidebar">
+    <div id="sidebar-header">
+      <h2>Table of Contents</h2>
+      <p id="toc-status">Loading…</p>
+    </div>
+    <div id="toc-root"></div>
+  </div>
+
+  <div id="content-wrap">
+    <div id="content-panel">
+      <div id="welcome">
+        <div class="ornament">☸</div>
+        <h1>Monastic Procedures</h1>
+        <p>Select a chapter from the table of contents.</p>
+      </div>
+      <div id="error-msg"></div>
+      <div id="chapter-content" style="display:none">
+        <div id="chapter-breadcrumb"></div>
+        <h1 id="chapter-title"></h1>
+        <div id="chapter-body"></div>
+        <div class="chapter-nav" id="chapter-nav"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
