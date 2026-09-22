@@ -1,8 +1,11 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "vinaya-kamma",
   "compatibility_date": "2026-05-28",
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": "./dist"
   }
 }
-
